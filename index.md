@@ -19,6 +19,6 @@ After putting the first character in the program sucessfully exited, but...where
 
 Success!!!!  
 
-<img src="snake2.PNG" alt="hi51" class="inline"/>
+<img src="snake3.PNG" alt="hi51" class="inline"/>
 
 
