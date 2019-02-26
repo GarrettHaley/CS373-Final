@@ -6,18 +6,24 @@ First, I looked through the script files using the developer tools in chrome. I 
 
 <img src="invitecode1.PNG" alt="hi51" class="inline"/>
 
-In inviteapi.min.js, the following code was found which listed a group of functions which could be run from the console. The "makeInviteCode" function seemed interesting, so I gave it a try in the conosle. Here was the response:
+In inviteapi.min.js, the following code was found which listed a group of functions which could be run from the console. The "makeInviteCode" function seemed interesting, so I gave it a try in the conosle. Here was the response:  
 
 <img src="invitecode2.PNG" alt="hi51" class="inline"/>
 
-Within the response above, the data section was encrypted with ROT13, so I looked up a ROT13 decoder and put in the ciphertext. The plaintext response can be seen below:
+Within the response above, the data section was encrypted with ROT13 which can be seen in the object returned in the response below:  
+
 <img src="invitecode3.PNG" alt="hi51" class="inline"/>
 
-I then created a POST request and received the following code with was encoded with base64:  
+I looked up a ROT13 decoder and put in the ciphertext. The plaintext response can be seen below:    
 
 <img src="Invitecode4.PNG" alt="hi51" class="inline"/>
 
+I then created a POST request and received the following code with was encoded with base64:  
+
 <img src="Invitecode5.PNG" alt="hi51" class="inline"/>
+
+Here is the invite code to create an account!  
+
 <img src="invitecode6.PNG" alt="hi51" class="inline"/>
 
 ### Challenge 1: Reversing Snake [10 pts]
