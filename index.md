@@ -6,7 +6,7 @@ First, I looked through the script files using the developer tools in chrome. I 
 
 <img src="invitecode1.PNG" alt="hi51" class="inline"/>
 
-In inviteapi.min.js, the following code was found which listed a group of functions which could be run from the console. The "makeInviteCode" function seemed interesting, so I gave it a try in the conosle. Here was the response:  
+In inviteapi.min.js, the following code was found which listed a group of functions which could be run from the console. The "makeInviteCode" function seemed interesting, so I gave it a try in the console. Here was the response:  
 
 <img src="invitecode2.PNG" alt="hi51" class="inline"/>
 
