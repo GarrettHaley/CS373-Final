@@ -27,17 +27,17 @@ Here is the invite code to create an account after decoding the base64 response!
 <img src="invitecode6.PNG" alt="hi51" class="inline"/>
 
 ### Challenge 1: Reversing Snake [10 pts]
-The first challenge I completed was reversing the snake program. This one was pretty easy. I was given a python program in which I had to reverse what the code was doing. I had to find the username and password asked for in the program. The flag was a concatenation of the username and password. The full break down can be seen below:  
+The first challenge I completed was reversing the snake program. This one was pretty easy. I was given a python program in which I had to reverse the source code. I had to find the correct username and password prompted by the program. The flag was a concatenation of the username and password. The full break down can be seen below:  
 
-The first thing I did was to identify what the username as password are looking for. The username is comparing the first user input with the "slither" variable which is a concatenation of various shellcode values defined above it. I used a hex to ascii converter I found online. The username found was "anaconda".  
+The first thing I did was to identify what the username as password code sections are looking for. The username was comparing the first user input with the "slither" variable which is a concatenation of various shellcode values defined above it. I used a hex to ascii converter I found online. The username I found was "anaconda".  
 
 <img src="snake0.PNG" alt="hi51" class="inline"/>
 
-Next, I needed to idenitfy how to bypass the password. The code shows that it compares each character in the variable chars with the second user input. After looking through the code and trying to reverse this variable I realized...Why don't I just print it? I have the source! So I made a for loop in the code that prints chars. The output can be seen below:  
+Next, I needed to idenitfy how to bypass the password. The code compares each character in the variable chars with the second user input. After looking through the code and trying to reverse this variable I realized...Why don't I just print it? I have the source! So I made a for loop in the code that prints chars. The output can be seen below:  
 
 <img src="snake1.PNG" alt="hi51" class="inline"/>
 
-After putting the first character in the program sucessfully exited, but...where was the flag? This actually ended up being the most time consuming portion of this challenge. After quite a few tries I finally went back to the challenge on hack the box to read the question more carefully and found the flag format is HTB{username:password}. This result can be seen below:
+After putting the first character in the program, it exited sucessfully, but...where was the flag? This actually ended up being the most time consuming portion of this challenge. After quite a few tries I finally went back to the challenge on hack the box to read the question more carefully and found the flag format is HTB{username:password}. This result can be seen below:
 
 <img src="snake2.PNG" alt="hi51" class="inline"/>
 
@@ -61,7 +61,7 @@ After accessing the site, I recieved the message "too slow". This was another cl
 
 <img src="hydra3.PNG" alt="hi51" class="inline"/>
 
-When given to the repeater, this was this response (which contained the flag, yay!).  
+When given to the repeater, this was the response (which contained the flag!).  
 
 <img src="hydra4.PNG" alt="hi51" class="inline"/>
 
@@ -91,3 +91,7 @@ Once in the website, I tried using dirb to enumerate potential paths within the 
 Success!!!!
 
 <img src="sqlmap7.PNG" alt="hi51" class="inline"/>
+
+### Conclusion
+
+Using the tools in kali linux and practicing penetration was enjoyable. There is a certain level of creativeness which goes along with these challenges. Knowing how to use various penetration testing tools is not enough to complete these challenges. I found myself stuck a few times. Taking a step back, and looking at the problem from a different angle was extremely helpful in completing these tasks.
