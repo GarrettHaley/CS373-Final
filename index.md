@@ -22,7 +22,7 @@ I then created a POST request and received the following code which was encoded 
 
 <img src="Invitecode5.PNG" alt="hi51" class="inline"/>
 
-Here is the invite code to create an account!  
+Here is the invite code to create an account after decoding the base64 response!  
 
 <img src="invitecode6.PNG" alt="hi51" class="inline"/>
 
