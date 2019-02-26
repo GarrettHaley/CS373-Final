@@ -16,3 +16,9 @@ Next, I needed to idenitfy how to bypass the password. The code shows that it co
 After putting the first character in the program sucessfully exited, but...where was the flag? This actually ended up being the most time consuming portion of this challenge. After quite a few tries I went back to the challenge on hack the box to read the question more carefully and found the flag format is HTB{username:password}. This result can be seen below.
 
 <img src="snake2.PNG" alt="hi51" class="inline"/>
+
+Success!!!!  
+
+<img src="snake2.PNG" alt="hi51" class="inline"/>
+
+
