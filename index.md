@@ -2,10 +2,21 @@
 ## Total Points: 60 pts
 __________________________________________________________________________________________
 ### Pre-Challenge 0: Getting The Invite Code [10 pts]
+First, I looked through the script files using the developer tools in chrome. I completed this task during my internship last summer and was given a hint from my mentor to search through the src first (and many other tips...). I found the following three scripts:  
+
 <img src="invitecode1.PNG" alt="hi51" class="inline"/>
+
+In inviteapi.min.js, the following code was found which listed a group of functions which could be run from the console. The "makeInviteCode" function seemed interesting, so I gave it a try in the conosle. Here was the response:
+
 <img src="invitecode2.PNG" alt="hi51" class="inline"/>
+
+Within the response above, the data section was encrypted with ROT13, so I looked up a ROT13 decoder and put in the ciphertext. The plaintext response can be seen below:
 <img src="invitecode3.PNG" alt="hi51" class="inline"/>
+
+I then created a POST request and received the following code with was encoded with base64:  
+
 <img src="Invitecode4.PNG" alt="hi51" class="inline"/>
+
 <img src="Invitecode5.PNG" alt="hi51" class="inline"/>
 <img src="invitecode6.PNG" alt="hi51" class="inline"/>
 
