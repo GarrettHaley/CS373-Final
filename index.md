@@ -18,7 +18,7 @@ I looked up a ROT13 decoder and put in the ciphertext. The plaintext response ca
 
 <img src="Invitecode4.PNG" alt="hi51" class="inline"/>
 
-I then created a POST request and received the following code with was encoded with base64:  
+I then created a POST request and received the following code which was encoded with base64:  
 
 <img src="Invitecode5.PNG" alt="hi51" class="inline"/>
 
