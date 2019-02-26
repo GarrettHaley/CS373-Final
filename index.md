@@ -49,12 +49,24 @@ Success!!!!
 
 <img src="hydra0.PNG" alt="hi51" class="inline"/>
 
-The second challenge I completed was a web penetration challenge named lernaean, which says it all. Lernaean was a serpentine water monster in Greek and Roman mythology often coined "Hydra". Hydra is also the name of a popular password cracking program. I booted up my Kali linux box in virtual box and cracked the password - 'leonardo'. I then used burpsuite to intercept the request and then used the repeater to see the response which contained the flag. The full breakdown can be seen below:
+The second challenge I completed was a web penetration challenge: lernaean (the name was a huge clue!). Lernaean was a serpentine water monster in Greek and Roman mythology often coined "Hydra". Hydra is also the name of a popular password cracking program. I booted up my kali linux box in virtual box and cracked the password - 'leonardo'. I then used burpsuite to intercept the request and then used the repeater to see the response which contained the flag. The full breakdown can be seen below:  
 
 <img src="hydra2.PNG" alt="hi51" class="inline"/>
+
+The command above utilizes the hydra program in kali linux attacking the IP (found from a DNS lookup) on port 40620 using a default password list provided in Kali called "password.lst". The password "leonardo" was cracked, and access to the site was gained.  
+
 <img src="hydra2.5.PNG" alt="hi51" class="inline"/>
+
+After accessing the site, I recieved the message "too slow". This was another clue that there may be additional information in the request/response. I decided to boot up the burpsuite tool and intercept the request. I set up a proxy on firefox through the burpsuite program and found the following response:  
+
 <img src="hydra3.PNG" alt="hi51" class="inline"/>
+
+When given to the repeater, this was this response (which contained the flag, yay!).  
+
 <img src="hydra4.PNG" alt="hi51" class="inline"/>
+
+Sucesss!!!!  
+
 <img src="hydra5.PNG" alt="hi51" class="inline"/>
 
 ### Challenge 3: Web Cartographer [30 pts]
