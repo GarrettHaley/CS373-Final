@@ -94,4 +94,4 @@ Success!!!!
 
 ### Conclusion
 
-Using the tools in kali linux and practicing penetration was enjoyable. There is a certain level of creativeness which goes along with these challenges. Knowing how to use various penetration testing tools is not enough to complete these challenges. I found myself stuck a few times. Taking a step back, and looking at the problem from a different angle was extremely helpful in completing these tasks.
+Using the tools in kali linux and practicing penetration was enjoyable. There is a certain level of creativeness which goes along with these challenges. Knowing how to use various penetration testing tools is not enough. I found myself stuck a few times. Taking a step back, and looking at the problem from a different angle was extremely helpful to succeeding in these tasks.
