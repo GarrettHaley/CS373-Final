@@ -1,7 +1,7 @@
 # Hack The Box
 ## Total Points: 60 pts
 __________________________________________________________________________________________
-### Pre-Challenge 0: Getting The Invite Code [10 pts]
+### Pre-Challenge 0: Getting The Invite Code [0 pts]
 First, I looked through the script files using the developer tools in chrome. I completed this task during my internship last summer and was given a hint from my mentor to search through the src first (and many other tips...). I found the following three scripts:  
 
 <img src="invitecode1.PNG" alt="hi51" class="inline"/>
