@@ -70,9 +70,24 @@ Sucesss!!!!
 <img src="hydra5.PNG" alt="hi51" class="inline"/>
 
 ### Challenge 3: Web Cartographer [30 pts]
+
+The third challenge I completed was a web penetration challenge: Cartographer (the name was also a clue!). Cartography is the study and practice of making maps. There is a tool in kali linux called sqlmap. I decided to first run the sqlmap program which identified the back-end DBMS, OS, and web application technology. After moving to an SQL injection I almost immediently got into the site using one of the most basic injections (often found on cheat sheets): 'or'1'='1. Once in the site, I spent way to much time trying to figure out what to next. I finally changed the query from info=home to info=flag. The full breakdown can be seen below:    
+
 <img src="sqlmap1.PNG" alt="hi51" class="inline"/>
+
+I began with a simple run of sqlmap based on the name of the challenge which can be seen above:  
+
 <img src="sqlmap2.PNG" alt="hi51" class="inline"/>
+
+One of the most basic injections (often found on cheat sheets): 'or'1'='1 worked on the site which I found on OWASPS SQL injection materials. This can be seen below:  
+
 <img src="sqlmap3.PNG" alt="hi51" class="inline"/>
 <img src="sqlmap4.PNG" alt="hi51" class="inline"/>
+
+Once in the website, I tried using dirb to enumerate potential paths within the site. I didn't find anything initially, but with a different word list, I was able to find the proper query: ?info=flag (of course...).
+
 <img src="sqlmap5.PNG" alt="hi51" class="inline"/>
+
+Success!!!!
+
 <img src="sqlmap7.PNG" alt="hi51" class="inline"/>
