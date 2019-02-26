@@ -2,12 +2,12 @@
 ## Total Points: 60 pts
 __________________________________________________________________________________________
 ### Pre-Challenge 0: Getting The Invite Code [10 pts]
-<img src="Invitecode1.PNG" alt="hi51" class="inline"/>
-<img src="Invitecode2.PNG" alt="hi51" class="inline"/>
-<img src="Invitecode3.PNG" alt="hi51" class="inline"/>
+<img src="invitecode1.PNG" alt="hi51" class="inline"/>
+<img src="invitecode2.PNG" alt="hi51" class="inline"/>
+<img src="invitecode3.PNG" alt="hi51" class="inline"/>
 <img src="Invitecode4.PNG" alt="hi51" class="inline"/>
 <img src="Invitecode5.PNG" alt="hi51" class="inline"/>
-<img src="Invitecode6.PNG" alt="hi51" class="inline"/>
+<img src="invitecode6.PNG" alt="hi51" class="inline"/>
 
 ### Challenge 1: Reversing Snake [10 pts]
 The first challenge I completed was reversing the snake program. This one was pretty easy. I was given a python program in which I had to reverse what the code was doing. I had to find the username and password asked for in the program. The flag was a concatenation of the username and password. The full break down can be seen below.  
@@ -43,5 +43,4 @@ Success!!!!
 <img src="sqlmap3.PNG" alt="hi51" class="inline"/>
 <img src="sqlmap4.PNG" alt="hi51" class="inline"/>
 <img src="sqlmap5.PNG" alt="hi51" class="inline"/>
-<img src="sqlmap6.PNG" alt="hi51" class="inline"/>
 <img src="sqlmap7.PNG" alt="hi51" class="inline"/>
