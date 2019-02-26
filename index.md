@@ -5,7 +5,7 @@ ________________________________________________________________________________
 ### Challenge 1: Reversing Snake [10 pts]
 The first challenge I completed was reversing the snake program. This one was pretty easy. I was given a python program in which I had to reverse what the code was doing. I had to find the username and password asked for in the program. The flag was a concatenation of the username and password. The full break down can be seen below.
 
-The first thing I did was to 
+The first thing I did was to identify what the username as password are looking for. The username is comparing the first user input with the "slither" variable which is a concatenation of various shellcode values defined above it. I used a hex to ascii converter I found online. The username found was "anaconda".
 
 <img src="snake0.PNG" alt="hi51" class="inline"/>
 <img src="snake1.PNG" alt="hi51" class="inline"/>
